@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .primary-button{
+        @apply bg-blue-400 text-white hover:bg-blue-500 rounded-md px-2 py-1 font-medium duration-200
+    }
+}
